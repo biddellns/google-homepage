@@ -1,3 +1,36 @@
 /*Empty file for future css code*/
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 100px;
+}
+
+#logo {
+    margin: auto;
+}
+
+#left-footer {
+    float: left;
+}
+
+#right-footer {
+    float: right; 
+}
+
+#footer {
+    height: 30px;
+    background-color: #D3D3D3;
+    position: relative;
+    clear: both;
+}
 
