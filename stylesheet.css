@@ -1,36 +1,101 @@
-/*Empty file for future css code*/
+/*V2*/
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+        text-align: center;
 }
 
-li {
-    float: left;
+#container {
+	min-height:100%;
+	position:relative;
+        font-family: arial;
+        font-size: 15px;
 }
 
-a {
+
+/*Navigation bar - header*/
+
+#navbar {
+	height: 30px;
+	padding: 10px;
+	float: right;
+}
+
+#navbar a {
     display: block;
-    width: 100px;
+    width: 60px;    
 }
 
-#logo {
-    margin: auto;
+#profpic
+{
+    border-radius: 100%;
 }
+
+/* The main body*/
+
+#content {
+	padding-top: 40px; /*Height of the navbar element*/
+	padding-bottom: 50px; /* Height of the footer element */
+}
+
+/*Footer controls*/
+
+#footer {
+	background: #ededed;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+        padding-top: 10px;
+}
+
 
 #left-footer {
+    margin-left: 12px;
     float: left;
+}
+
+#left-floater a {
+    width: 100px;
+    display: block;
 }
 
 #right-footer {
-    float: right; 
+    margin-right: 12px;
+    float: right;
 }
 
-#footer {
-    height: 30px;
-    background-color: #D3D3D3;
-    position: relative;
-    clear: both;
+#footer a {
+    display: block;
+    width: 80px;
 }
+
+/*Basic elements*/
+
+ul {
+   list-style-type: none;
+}
+
+li {
+   float: left;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:visited {
+   color: #777777;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #666666;
+}  
 
