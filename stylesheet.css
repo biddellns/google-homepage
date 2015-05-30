@@ -16,7 +16,7 @@ body {
 }
 
 
-/*Navigation bar - header*/
+/*Navigation Bar*/
 
 #navbar {
 	height: 30px;
@@ -34,11 +34,39 @@ body {
     border-radius: 100%;
 }
 
-/* The main body*/
+/*Main Body*/
 
 #content {
 	padding-top: 40px; /*Height of the navbar element*/
 	padding-bottom: 50px; /* Height of the footer element */
+}
+
+/*Google logo*/
+
+#logo {
+    position: absolute;
+    margin-left: 41em;
+    margin-right: auto; 
+    top: 30%;
+}
+
+
+#logo img {
+    max-width: 300px;
+    max-height: 100px;
+}
+
+/*Search form*/
+#form {
+    position: relative;
+    clear: both;
+    margin-top: 20%;
+    
+}
+
+#searchinput {
+    width: 500px;
+    text-align: left;
 }
 
 /*Footer controls*/
